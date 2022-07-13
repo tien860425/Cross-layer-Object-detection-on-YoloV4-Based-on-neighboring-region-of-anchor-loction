@@ -23,7 +23,7 @@
 - [x] 特徵金字塔：SPP，PAN
 - [x] 訓練用到的小技巧：Mosaic資料增強、Label Smoothing平滑、CIOU、學習率余弦退火衰減
 - [x] 啟動函數：使用Mish啟動函數
-- [ ] ……balabla
+
 
 ### 所需環境
 tensorflow-gpu==1.13.1  
@@ -104,8 +104,5 @@ dog
 get_map文件克隆自https://github.com/Cartucho/mAP  
 具體mAP計算過程可參考：https://www.bilibili.com/video/BV1zE411u7Vw
 
-### Reference
-https://github.com/qqwweee/keras-yolo3/  
-https://github.com/Cartucho/mAP  
-https://github.com/Ma-Dan/keras-yolo4  
+ 
 
