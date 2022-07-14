@@ -10,12 +10,11 @@
 6. [文件下載 Download](#文件下載)
 7. [預測步驟 How2predict](#預測步驟)
 8. [訓練步驟 How2train](#訓練步驟)
-9. [參考資料 Reference](#Reference)
 
 ### 性能情況
 | 訓練資料集 | 權值檔案名稱 | 測試資料集 | 輸入圖片大小 | mAP 0.5:0.95 | mAP 0.5 |
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
-| VOC07+12+COCO | [yolo4_voc_weights.h5](https://github.com/bubbliiiing/yolov4-keras/releases/download/v1.0/yolo4_voc_weights.h5) | VOC-Test07 | 416x416 | - | 84.1
+| VOC07+12+COCO | [yolo4_voc_weights.h5](https://github.com/bubbliiiing/yolov4-keras/releases/download/v1.0/yolo4_voc_weights.h5) | VOC-Test07 | 416x416 | - | 86.4
 | COCO-Train2017 | [yolo4_weight.h5](https://github.com/bubbliiiing/yolov4-keras/releases/download/v1.0/yolo4_weight.h5) | COCO-Val2017 | 416x416 | 43.1 | 66.0
 
 ### 實現的內容
@@ -41,14 +40,13 @@ keras==2.1.5
 3、label_smoothing可用於控制是否Label Smoothing平滑。
 
 ### 文件下載
-訓練所需的yolo4_weights.h5可在百度網盤中下載。  
-連結: https://pan.baidu.com/s/1FF79PmRc8BzZk8M_ARdMmw 提取碼: dc2j  
-yolo4_weights.h5是coco資料集的權重。  
-yolo4_voc_weights.h5是voc資料集的權重。
+訓練好的權重可至google雲端下載trained_weights.h5
+連結: https://drive.google.com/drive/folders/1xL1o9awOJmTygzEHJ8cRzH__QpDz7dt0?usp=sharing 
+
 
 ### 預測步驟
 #### 1、使用預訓練權重
-a、下載完庫後解壓，在百度網盤下載yolo4_weights.h5或者yolo4_voc_weights.h5，放入model_data，運行predict.py，輸入  
+a、下載完庫後解壓，在google雲端(https://drive.google.com/drive/folders/1xL1o9awOJmTygzEHJ8cRzH__QpDz7dt0?usp=sharing)下載trained_weights.h5後，放入model_data，運行predict.py，輸入  
 ```python
 img/street.jpg
 ```
