@@ -46,7 +46,8 @@ keras==2.1.5
 
 ### 預測步驟
 #### 1、使用預訓練權重
-a、下載完庫後解壓，在google雲端(https://drive.google.com/drive/folders/1xL1o9awOJmTygzEHJ8cRzH__QpDz7dt0?usp=sharing)下載trained_weights.h5後，放入model_data，運行predict.py，輸入  
+a、下載完庫後解壓，在google雲端(https://drive.google.com/drive/folders/1xL1o9awOJmTygzEHJ8cRzH__QpDz7dt0?usp=sharing)
+下載trained_weights.h5後，放入model_data，運行predict.py，輸入  
 ```python
 img/street.jpg
 ```
