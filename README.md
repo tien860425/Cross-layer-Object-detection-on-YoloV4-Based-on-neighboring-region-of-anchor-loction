@@ -55,7 +55,7 @@ img/street.jpg
 b、利用video.py可進行攝像頭檢測。  
 #### 2、使用自己訓練的權重
 a、按照訓練步驟訓練。  
-b、在yolo.py檔裡面，在如下部分修改model_path和classes_path使其對應訓練好的檔；**model_path對應logs資料夾下麵的權值文件，classes_path是model_path對應分的類**。  
+b、在yolo.py檔裡面，在如下部分修改model_path和classes_path使其對應訓練好的檔；**model_path對應logs資料夾下面的權值文件，classes_path是model_path對應分的類**。  
 ```python
 _defaults = {
     "model_path": 'model_data/yolo4_weight.h5',
